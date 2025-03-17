@@ -45,6 +45,9 @@ class ProductController extends Controller
         ]);
     
         try {
+            if (!Storage::disk('public')->exists('products')) {
+                Storage::disk('public')->makeDirectory('products');
+            }
             // Handle image upload if provided
             $imagePath = $request->file('image') ? $request->file('image')->store('products', 'public') : null;
     

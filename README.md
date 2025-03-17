@@ -70,10 +70,12 @@ Update database credentials and storage settings in `.env`.
 php artisan key:generate
 ```
 
-5️⃣ Run Migrations & Seeders
+5️⃣ Run Migrations , Seeders and Activate the storage link
 
 ```sh
 php artisan migrate --seed
+php artisan storage:link
+
 ```
 
 6️⃣ Serve the Application
