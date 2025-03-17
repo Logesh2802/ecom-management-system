@@ -42,7 +42,7 @@ Before installing the project, ensure you have the following dependencies instal
 
 ```sh
 git clone https://github.com/Logesh2802/ecom-management-system.git
-cd ecom-management
+cd ecom-management-system
 ```
 
 2️⃣ Install Dependencies
