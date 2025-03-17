@@ -49,7 +49,9 @@ cd ecom-management-system
 
 ```sh
 composer install
-npm install && npm run dev
+npm install 
+npm run dev
+npm run build
 ```
 
 3️⃣ Configure Environment
